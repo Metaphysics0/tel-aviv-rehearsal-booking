@@ -1,38 +1,28 @@
-# create-svelte
+# Tel Aviv Rehearsal Booker 🎸 🥁 🎹 🎤
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This is a simple web application that allows you to find available times for rehearsals at various studios in Tel Aviv.
 
-## Creating a project
+![Screenshot](https://i.imgur.com/79H51hd.png)
 
-If you're seeing this, you've probably already done this step. Congrats!
+Integrations:
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- [Keoss](https://yoman.co.il/keoss)
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Tech:
 
-## Developing
+Frontend:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- [Svelte + Kit](https://kit.svelte.dev/)
+- [Skeleton UI](https://skeleton.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
 
-```bash
-npm run dev
+Backend:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- [Node.js](https://nodejs.org/)
+- [Vercel](https://vercel.com/)
 
-## Building
-
-To create a production version of your app:
+## Development
 
 ```bash
-npm run build
+pnpm run dev
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
